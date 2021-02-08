@@ -1,0 +1,22 @@
+  #toast{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    background: linear-gradient(91deg,#f1eefc,#9dc6ff 70%,#a5bcff);
+    color: darkred;
+    z-index: 9999;
+    animation: fade .5s linear 1s;
+  }
+
+  @keyframes fade{
+    0%{
+      
+    }
+    100%{
+      transform: translate(-50%,-50%) scale(0);
+    }
+  }
